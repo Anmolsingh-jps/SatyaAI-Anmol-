@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-950 text-white min-h-screen;
+  /* Dark theme with a deep purple/blue gradient */
+  background: radial-gradient(circle at top right, #312e81, #020617);
+  background-attachment: fixed;
+}
+
+/* Glassmorphism utility class for premium UI cards */
+.glass {
+  @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-2xl;
+}
